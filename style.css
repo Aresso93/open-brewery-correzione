@@ -1,0 +1,25 @@
+.brewery-card{
+
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;     /*nuova unità di misura: relative alla dimensione di default del testo*/
+    margin: 1rem;       /*la misura in rem cambia in base a quella scelta dall'utente*/
+    border: 2px solid lime;
+    gap: 4px;
+}
+
+.detail-header{
+    display: flex;
+  
+}
+
+.detail-header h2{
+    margin:0px;
+    padding: 3rem;
+    gap: 8px;
+}
+
+#brewery-container{
+    display: flex;
+    flex-direction: column;
+}
